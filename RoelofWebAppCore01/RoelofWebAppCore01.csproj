@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>83c915a3-955b-45e3-8122-a866ceb9a64d</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/402a7f37-1a1d-400c-9b12-72c637de6e55/resourcegroups/RGLUAI-rg/providers/Microsoft.Insights/components/RoelofWebAppCore01</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.14.0" />
+  </ItemGroup>
+
+</Project>
